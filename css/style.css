@@ -1,3 +1,8 @@
+@keyframes wave {
+  from {
+    transform: translateX(50px);
+  }
+}
 @media screen and (min-width: 700px) {
   body {
     font-family: "Fjalla One", sans-serif;
@@ -25,6 +30,7 @@
     float: left;
     color: black;
     letter-spacing: 2px;
+    animation: wave 5s linear infinite alternate;
   }
   body header nav a {
     display: flex;
@@ -135,6 +141,7 @@
     float: left;
     color: black;
     letter-spacing: 2px;
+    animation: wave 5s linear infinite alternate;
   }
   body header nav a {
     display: flex;
@@ -245,6 +252,7 @@
     float: left;
     color: black;
     letter-spacing: 2px;
+    animation: wave 5s linear infinite alternate;
   }
   body header nav a {
     display: flex;

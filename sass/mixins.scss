@@ -16,8 +16,6 @@
     border: 2px white solid;
     font-family:$nav;
     margin-bottom: 1%;
-    
-
         h2{
             display: flex;
             font-size: 25px;
@@ -25,6 +23,7 @@
             float: left;
             color: black;
             letter-spacing: 2px;
+            animation: wave 5s linear infinite alternate ;
         }
         a{
             display: flex;
@@ -75,4 +74,14 @@
       .fa-codepen{
           color: white;
       }
+}
+
+
+@keyframes wave {
+  from{
+    transform: translateX(50px);
+  }
+  // to{
+  //   transform: translateZ(-10px);
+  // }
 }
