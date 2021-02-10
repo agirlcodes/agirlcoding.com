@@ -1,0 +1,50 @@
+// $breakpoint: ("large": 700px, "medium": 600px,"small": 450px,
+// );
+// $color: purple;
+
+// @media screen and(min-width:map-get($breakpoint, "large"))
+// {
+//     img{
+//         display: block;
+//     }
+// }
+// @media screen and(max-width:map-get($breakpoint, "small"))
+// { 
+//     img{
+//         // display: none;
+//         height: 50px;
+//         width: auto;
+//     }
+// }
+
+// // mixin
+
+// @mixin createcolor{($color)
+//     .normal-#{$color}{
+//         background-color: $color;
+//     }
+//     .light-#{$color}{
+//         background-color: lighten($color: purple, $amount: 50);
+//     }
+//     .dark-#{$color}{
+//         background-color: darken($color: purple, $amount: 50);
+//     }
+// }
+// .dark{
+//     @include "createcolor";
+// }
+
+
+
+// // week 8
+
+// @debug "base font size #{$base-fonts}" ;
+
+
+
+@import "mixins";
+$chosen-color: tan;
+
+main{
+    background-color: $chosen-color;
+}

@@ -1,0 +1,126 @@
+body {
+  font-family: "Fjalla One", sans-serif;
+  background-color: lightpink;
+  margin: 2%;
+  margin-bottom: 0%;
+  color: white;
+}
+body nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 14px 16px;
+  border: 2px white solid;
+  font-family: monospace, "Fjalla One", sans-serif;
+  margin-bottom: 1%;
+}
+body nav h2 {
+  display: flex;
+  font-size: 25px;
+  margin: 0%;
+  float: left;
+  color: black;
+  letter-spacing: 2px;
+}
+body nav a {
+  display: flex;
+  font-size: 15px;
+  text-decoration: none;
+  justify-content: flex-end;
+  color: black;
+  margin-left: 5%;
+}
+body nav a:hover {
+  display: flex;
+  color: blue;
+}
+body .border {
+  border: 5px solid white;
+  padding-bottom: 5%;
+  padding: 5%;
+  padding: 0%;
+}
+body .border header {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: column wrap;
+  margin: 5%;
+}
+body .border header h1 {
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 25px;
+}
+body .border header p {
+  color: white;
+  text-align: center;
+}
+body .border main {
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+body .border main .flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  justify-content: center;
+}
+body .border main .flex a {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  box-shadow: 4px 3px 8px 1px #9e146e;
+  border: 2px solid black;
+  background-color: white;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding: 1px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+body .border main .flex a img {
+  max-width: 200px;
+  margin: 10px;
+}
+body .border main .flex a figcaption {
+  text-align: center;
+  margin: 2px;
+  color: black;
+}
+body footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #8a2c69;
+  margin-bottom: 1%;
+}
+body footer .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+body footer .fa:hover {
+  background-color: #9c6388;
+}
+body footer .fa-twitter {
+  color: white;
+}
+body footer .fa-github {
+  color: white;
+}
+body footer .fa-linkedin {
+  color: white;
+}
+body footer .fa-google {
+  color: white;
+}
+body footer .fa-codepen {
+  color: white;
+}
+
+/*# sourceMappingURL=portfolio.css.map */

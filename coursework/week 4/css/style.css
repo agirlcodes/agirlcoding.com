@@ -1,0 +1,45 @@
+body{
+    background-color: pink;
+    align-items: center;
+    font-family: monospace;
+    color: white;
+    font-size: 14px;
+}
+.title{
+    text-align: center; 
+    font-size: 3em;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+}
+
+nav2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+/*     Bookshelf   */
+.bookshelf{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: auto;
+}
+.book{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+div img{
+    max-width:300px;
+}

@@ -1,0 +1,78 @@
+@import "mixins";
+@import "variables";
+
+body{
+    @include base;
+    header{
+        nav{
+            @include banner;
+            margin-bottom: 1%;
+        }
+    }
+    .border{
+        @include border;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 100;
+        font-size: 13px;
+        section{
+            margin-left: 3%;
+            margin-top: 2%;
+            font-weight: 550;
+        }
+        #card-layout{
+            display: flex;
+            align-content: center;
+            text-align: justify;
+            flex-direction: column;
+            justify-content: space-evenly;
+            background-color: #ffffff;
+            color: black;
+            box-shadow: 4px 3px 8px 5px #9e146e;
+            padding: 5%;
+            margin-left: 3%;
+            margin-right: 3%;
+            ul{
+                li{
+                    list-style-type: none;
+                }
+                p{
+                    text-indent: 2%;
+                }
+            }
+            #port-layout{
+                h3{
+                text-indent: 2%;
+                }
+                ul{
+                    li{
+                    text-indent: 3%;
+                    }
+                }
+            }
+            #work{
+                ul{
+                    li{
+                        text-indent: 2%;
+                    }
+                }
+            }
+        }
+        article{
+            display: flex;
+            align-content: center;
+            text-align: justify;
+            flex-direction: column;
+            justify-content: space-evenly;
+            background-color: #ffffff;
+            color: black;
+            box-shadow: 4px 3px 8px 5px #9e146e;
+            padding: 5%;
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 5%;
+        }
+    }
+    footer{
+        @include footer;
+    }
+}

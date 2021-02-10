@@ -1,0 +1,23 @@
+$mobile: 450px;
+.form{
+    background-color: rgba(58, 58, 196);
+    padding: 5px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    border: 2px black solid;
+}
+@media screen and (max-width:$mobile)
+{
+.form{
+    background-color: rgb(196, 58, 196);
+    padding: 5px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 2fr);
+    border: 2px black solid;
+
+}
+}

@@ -1,0 +1,41 @@
+@import "variables";
+@import "mixins";
+
+body{
+    @include base;
+    header{
+        nav{
+            @include banner;
+        }
+    }
+    main{
+        @include border;
+        .card-layout{
+            color: black;
+            background-color: white;
+            box-shadow: 4px 3px 8px 1px #9e146e;
+            padding: 10px;
+            margin-bottom: 2%;
+            margin-left: 10%;
+            margin-right: 10%;
+            p{
+                font-family: 'JetBrains Mono', monospace;
+                font-weight: 100;
+                font-size: 13px;
+            }
+        }
+    }
+    footer{
+        @include footer;
+    }
+}
+@media only screen and (max-width:$mobile)
+{
+    main{
+        @include border;
+        .card-layout{
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+    }   
+}

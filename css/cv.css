@@ -1,0 +1,127 @@
+body {
+  font-family: "Fjalla One", sans-serif;
+  background-color: lightpink;
+  margin: 2%;
+  margin-bottom: 0%;
+  color: white;
+}
+body header nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 14px 16px;
+  border: 2px white solid;
+  font-family: monospace, "Fjalla One", sans-serif;
+  margin-bottom: 1%;
+  margin-bottom: 1%;
+}
+body header nav h2 {
+  display: flex;
+  font-size: 25px;
+  margin: 0%;
+  float: left;
+  color: black;
+  letter-spacing: 2px;
+}
+body header nav a {
+  display: flex;
+  font-size: 15px;
+  text-decoration: none;
+  justify-content: flex-end;
+  color: black;
+  margin-left: 5%;
+}
+body header nav a:hover {
+  display: flex;
+  color: blue;
+}
+body .border {
+  border: 5px solid white;
+  padding-bottom: 5%;
+  padding: 5%;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 100;
+  font-size: 13px;
+}
+body .border section {
+  margin-left: 3%;
+  margin-top: 2%;
+  font-weight: 550;
+}
+body .border #card-layout {
+  display: flex;
+  align-content: center;
+  text-align: justify;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  color: black;
+  box-shadow: 4px 3px 8px 5px #9e146e;
+  padding: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+body .border #card-layout ul li {
+  list-style-type: none;
+}
+body .border #card-layout ul p {
+  text-indent: 2%;
+}
+body .border #card-layout #port-layout h3 {
+  text-indent: 2%;
+}
+body .border #card-layout #port-layout ul li {
+  text-indent: 3%;
+}
+body .border #card-layout #work ul li {
+  text-indent: 2%;
+}
+body .border article {
+  display: flex;
+  align-content: center;
+  text-align: justify;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  color: black;
+  box-shadow: 4px 3px 8px 5px #9e146e;
+  padding: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 5%;
+}
+body footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #8a2c69;
+  margin-bottom: 1%;
+}
+body footer .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+body footer .fa:hover {
+  background-color: #9c6388;
+}
+body footer .fa-twitter {
+  color: white;
+}
+body footer .fa-github {
+  color: white;
+}
+body footer .fa-linkedin {
+  color: white;
+}
+body footer .fa-google {
+  color: white;
+}
+body footer .fa-codepen {
+  color: white;
+}
+
+/*# sourceMappingURL=cv.css.map */

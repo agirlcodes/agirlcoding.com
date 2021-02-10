@@ -1,0 +1,23 @@
+.form {
+  background-color: #3a3ac4;
+  padding: 5px;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  border: 2px black solid;
+}
+
+@media screen and (max-width: 450px) {
+  .form {
+    background-color: #c43ac4;
+    padding: 5px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 2fr);
+    border: 2px black solid;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

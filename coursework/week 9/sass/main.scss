@@ -1,0 +1,54 @@
+@mixin image {
+    min-width: 50px;
+    max-height: 80px;
+    padding: 5px;
+}
+
+// body{
+//     display: flexbox;
+// }
+    header{
+        display:grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 100%;
+        
+        h1{
+            grid-column: 1;
+        }
+        nav{
+            text-align: right;
+            grid-column: 2;
+            li{
+                display: inline;
+                justify-content: space-evenly;
+                padding: 5px;
+                font-size: 16px;
+            }
+            a{
+                text-decoration: none;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    main{
+        display: grid;
+        grid-template-columns: 100%;
+
+        .nav-instructions{
+            grid-column: 1;
+        }
+    }
+    
+    .gallery{
+        display: flexbox;
+
+        img{
+            @include image;
+            filter: grayscale(100%); 
+        }
+        img:hover{
+            filter: grayscale(0%);
+        }
+    }

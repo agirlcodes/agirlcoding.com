@@ -1,0 +1,324 @@
+@media screen and (min-width: 700px) {
+  body {
+    font-family: "Fjalla One", sans-serif;
+    background-color: lightpink;
+    margin: 2%;
+    margin-bottom: 0%;
+    color: white;
+  }
+  body header nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 14px 16px;
+    border: 2px white solid;
+    font-family: monospace, "Fjalla One", sans-serif;
+    margin-bottom: 1%;
+    margin-bottom: 1%;
+  }
+  body header nav h2 {
+    display: flex;
+    font-size: 25px;
+    margin: 0%;
+    float: left;
+    color: black;
+    letter-spacing: 2px;
+  }
+  body header nav a {
+    display: flex;
+    font-size: 15px;
+    text-decoration: none;
+    justify-content: flex-end;
+    color: black;
+    margin-left: 5%;
+  }
+  body header nav a:hover {
+    display: flex;
+    color: blue;
+  }
+  body main {
+    border: 5px solid white;
+    padding-bottom: 5%;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 20% 50%;
+    grid-template-rows: repeat(3, max-content);
+    grid-gap: 10px;
+    padding-bottom: 11%;
+  }
+  body main h1 {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  body main img {
+    grid-row: 1/span 3;
+    grid-column: 1;
+    max-height: 350px;
+  }
+  body main section {
+    grid-row: 3;
+    grid-column: 2;
+  }
+  body main section h5 {
+    font-weight: lighter;
+  }
+  body main section ul li {
+    list-style-type: none;
+    display: inline;
+  }
+  body main p {
+    grid-row: 2;
+    grid-column: 2;
+    margin: 0%;
+    padding: 0%;
+    line-height: 120%;
+  }
+  body footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #8a2c69;
+    margin-bottom: 1%;
+    margin: 0%;
+  }
+  body footer .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  body footer .fa:hover {
+    background-color: #9c6388;
+  }
+  body footer .fa-twitter {
+    color: white;
+  }
+  body footer .fa-github {
+    color: white;
+  }
+  body footer .fa-linkedin {
+    color: white;
+  }
+  body footer .fa-google {
+    color: white;
+  }
+  body footer .fa-codepen {
+    color: white;
+  }
+}
+@media screen and (min-width: 500.5px) {
+  body {
+    font-family: "Fjalla One", sans-serif;
+    background-color: lightpink;
+    margin: 2%;
+    margin-bottom: 0%;
+    color: white;
+  }
+  body header nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 14px 16px;
+    border: 2px white solid;
+    font-family: monospace, "Fjalla One", sans-serif;
+    margin-bottom: 1%;
+    margin-bottom: 2%;
+  }
+  body header nav h2 {
+    display: flex;
+    font-size: 25px;
+    margin: 0%;
+    float: left;
+    color: black;
+    letter-spacing: 2px;
+  }
+  body header nav a {
+    display: flex;
+    font-size: 15px;
+    text-decoration: none;
+    justify-content: flex-end;
+    color: black;
+    margin-left: 5%;
+  }
+  body header nav a:hover {
+    display: flex;
+    color: blue;
+  }
+  body main {
+    border: 5px solid white;
+    padding-bottom: 5%;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 20% 70%;
+    grid-template-rows: 30% 30% 30%;
+    grid-gap: 10px;
+    padding-bottom: 11%;
+  }
+  body main h1 {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  body main img {
+    grid-row: 1/span 3;
+    grid-column: 1;
+    max-height: 350px;
+  }
+  body main section {
+    grid-row: 3;
+    grid-column: 2;
+  }
+  body main section h5 {
+    font-weight: lighter;
+  }
+  body main section ul li {
+    list-style-type: none;
+    display: inline;
+  }
+  body main p {
+    grid-row: 2;
+    grid-column: 2;
+    margin: 0%;
+    padding: 0%;
+    line-height: 120%;
+  }
+  body footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #8a2c69;
+    margin-bottom: 1%;
+  }
+  body footer .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  body footer .fa:hover {
+    background-color: #9c6388;
+  }
+  body footer .fa-twitter {
+    color: white;
+  }
+  body footer .fa-github {
+    color: white;
+  }
+  body footer .fa-linkedin {
+    color: white;
+  }
+  body footer .fa-google {
+    color: white;
+  }
+  body footer .fa-codepen {
+    color: white;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    font-family: "Fjalla One", sans-serif;
+    background-color: lightpink;
+    margin: 2%;
+    margin-bottom: 0%;
+    color: white;
+  }
+  body header nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 14px 16px;
+    border: 2px white solid;
+    font-family: monospace, "Fjalla One", sans-serif;
+    margin-bottom: 1%;
+    flex-direction: column;
+    margin-bottom: 1%;
+  }
+  body header nav h2 {
+    display: flex;
+    font-size: 25px;
+    margin: 0%;
+    float: left;
+    color: black;
+    letter-spacing: 2px;
+  }
+  body header nav a {
+    display: flex;
+    font-size: 15px;
+    text-decoration: none;
+    justify-content: flex-end;
+    color: black;
+    margin-left: 5%;
+  }
+  body header nav a:hover {
+    display: flex;
+    color: blue;
+  }
+  body main {
+    border: 5px solid white;
+    padding-bottom: 5%;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 30% 30%;
+    grid-gap: 10px;
+  }
+  body main h1 {
+    grid-row: 2;
+  }
+  body main img {
+    grid-row: 1;
+    max-height: 50px;
+  }
+  body main section {
+    grid-row: 3;
+  }
+  body main section h5 {
+    font-weight: lighter;
+  }
+  body main section ul li {
+    list-style-type: none;
+    display: inline;
+  }
+  body main p {
+    grid-row: 4;
+  }
+  body footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #8a2c69;
+    margin-bottom: 1%;
+    margin: 0%;
+  }
+  body footer .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  body footer .fa:hover {
+    background-color: #9c6388;
+  }
+  body footer .fa-twitter {
+    color: white;
+  }
+  body footer .fa-github {
+    color: white;
+  }
+  body footer .fa-linkedin {
+    color: white;
+  }
+  body footer .fa-google {
+    color: white;
+  }
+  body footer .fa-codepen {
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
