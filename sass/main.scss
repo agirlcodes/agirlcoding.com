@@ -10,6 +10,7 @@
                 margin-bottom: 1%;
                 }
         }
+        
         main{
             @include border;
             display: grid;
@@ -20,6 +21,19 @@
             h1{
                 grid-row: 1;
                 grid-column: 2;
+                border-right: 3px solid;
+                white-space: nowrap;
+                overflow: hidden;    
+                animation: animated-text 5s steps(29,end) 1s 1 normal both,
+                        animated-cursor 600ms steps(29,end) infinite;
+             @keyframes animated-text{
+                from{width: 0px;}
+                to{width: 525px;}
+              }
+            @keyframes animated-cursor{
+                from{border-right-color: rgba(0, 0, 0, 0.75);}
+                to{border-right-color: transparent;}
+              }
             }
             img{
                 grid-row: 1/span 3;
