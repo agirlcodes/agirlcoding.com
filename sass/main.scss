@@ -124,24 +124,31 @@
     body{
         @include base;
         header{
+            h2{
+                visibility:hidden;
+            }
             nav{
                 @include banner;
-                flex-direction:column;                    
-                margin-bottom: 1%;
+                position: fixed;
+                top: 90%;
+                width: 100%;
+                margin-left: -10px;
+                z-index: 10;                    
                 }
         }
         main{
             @include border;
             display: grid;
             grid-template-columns: 100%;
-            grid-template-rows: 30% 30% 30%  ;
+            grid-template-rows: repeat(6, auto) ;
             grid-gap: 10px;
-            h1{
-                grid-row: 2;
-            }
             img{
                 grid-row: 1;
-                max-height: 50px;
+                max-height: 35vw;
+            }
+            h1{
+                grid-row: 2;
+                font-size: 5vw;
             }
             section{
                 grid-row: 3;
@@ -163,6 +170,7 @@
             }
         }
         footer{
+            grid-row: 5;
             @include footer;
             margin: 0%;
         }    

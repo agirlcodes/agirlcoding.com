@@ -1,46 +1,24 @@
 @media screen and (min-width: 700px) {
   body {
     font-family: "Fjalla One", sans-serif;
-    background-color: lightpink;
-    margin: 2%;
-    margin-bottom: 0%;
+    background-image: linear-gradient(#f7b5cb, #f8cc99);
     color: white;
   }
   body header nav {
     display: flex;
-    align-items: center;
-    flex-direction: row;
     justify-content: space-evenly;
     background-color: white;
     padding: 14px 16px;
-    border: 2px white solid;
     font-family: monospace, "Fjalla One", sans-serif;
+    height: 60px;
     margin-bottom: 1%;
-    margin-bottom: 1%;
-  }
-  body header nav h2 {
-    display: flex;
-    font-size: 25px;
-    margin: 0%;
-    float: left;
-    color: black;
-    letter-spacing: 2px;
-    border-right: solid 3-px black;
   }
   body header nav a {
-    display: flex;
     font-size: 15px;
     text-decoration: none;
-    justify-content: flex-end;
     color: black;
-    margin-left: 5%;
-  }
-  body header nav a:hover {
-    display: flex;
-    color: blue;
   }
   body main {
-    border: 5px solid white;
     padding-bottom: 5%;
     padding: 5%;
     display: grid;
@@ -99,7 +77,6 @@
   body footer {
     display: flex;
     justify-content: space-evenly;
-    background-color: #8a2c69;
     margin-bottom: 1%;
     margin: 0%;
   }
@@ -132,46 +109,24 @@
 @media screen and (min-width: 500.5px) {
   body {
     font-family: "Fjalla One", sans-serif;
-    background-color: lightpink;
-    margin: 2%;
-    margin-bottom: 0%;
+    background-image: linear-gradient(#f7b5cb, #f8cc99);
     color: white;
   }
   body header nav {
     display: flex;
-    align-items: center;
-    flex-direction: row;
     justify-content: space-evenly;
     background-color: white;
     padding: 14px 16px;
-    border: 2px white solid;
     font-family: monospace, "Fjalla One", sans-serif;
-    margin-bottom: 1%;
+    height: 60px;
     margin-bottom: 2%;
   }
-  body header nav h2 {
-    display: flex;
-    font-size: 25px;
-    margin: 0%;
-    float: left;
-    color: black;
-    letter-spacing: 2px;
-    border-right: solid 3-px black;
-  }
   body header nav a {
-    display: flex;
     font-size: 15px;
     text-decoration: none;
-    justify-content: flex-end;
     color: black;
-    margin-left: 5%;
-  }
-  body header nav a:hover {
-    display: flex;
-    color: blue;
   }
   body main {
-    border: 5px solid white;
     padding-bottom: 5%;
     padding: 5%;
     display: grid;
@@ -210,7 +165,6 @@
   body footer {
     display: flex;
     justify-content: space-evenly;
-    background-color: #8a2c69;
     margin-bottom: 1%;
   }
   body footer .fa {
@@ -242,60 +196,45 @@
 @media screen and (max-width: 500px) {
   body {
     font-family: "Fjalla One", sans-serif;
-    background-color: lightpink;
-    margin: 2%;
-    margin-bottom: 0%;
+    background-image: linear-gradient(#f7b5cb, #f8cc99);
     color: white;
+  }
+  body header h2 {
+    visibility: hidden;
   }
   body header nav {
     display: flex;
-    align-items: center;
-    flex-direction: row;
     justify-content: space-evenly;
     background-color: white;
     padding: 14px 16px;
-    border: 2px white solid;
     font-family: monospace, "Fjalla One", sans-serif;
-    margin-bottom: 1%;
-    flex-direction: column;
-    margin-bottom: 1%;
-  }
-  body header nav h2 {
-    display: flex;
-    font-size: 25px;
-    margin: 0%;
-    float: left;
-    color: black;
-    letter-spacing: 2px;
-    border-right: solid 3-px black;
+    height: 60px;
+    position: fixed;
+    top: 90%;
+    width: 100%;
+    margin-left: -10px;
+    z-index: 10;
   }
   body header nav a {
-    display: flex;
     font-size: 15px;
     text-decoration: none;
-    justify-content: flex-end;
     color: black;
-    margin-left: 5%;
-  }
-  body header nav a:hover {
-    display: flex;
-    color: blue;
   }
   body main {
-    border: 5px solid white;
     padding-bottom: 5%;
     padding: 5%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 30% 30% 30%;
+    grid-template-rows: repeat(6, auto);
     grid-gap: 10px;
-  }
-  body main h1 {
-    grid-row: 2;
   }
   body main img {
     grid-row: 1;
-    max-height: 50px;
+    max-height: 35vw;
+  }
+  body main h1 {
+    grid-row: 2;
+    font-size: 5vw;
   }
   body main section {
     grid-row: 3;
@@ -311,9 +250,9 @@
     grid-row: 4;
   }
   body footer {
+    grid-row: 5;
     display: flex;
     justify-content: space-evenly;
-    background-color: #8a2c69;
     margin-bottom: 1%;
     margin: 0%;
   }
